@@ -8,8 +8,9 @@ function LandingPage(props) {
         <introductiontext>Explain a little from what my background is</introductiontext>
       </div>
       <div>
-      <div>Final Bootcamp Project Description</div>
-      <div>FINAL PROJECT IMAGE PLACEHOLDER WITH LINK</div>
+        <div>Final Bootcamp Project Description</div>
+        <div>FINAL PROJECT IMAGE PLACEHOLDER WITH LINK</div>
+        <div>Why the gap on github? Because I got Married!</div>
       </div>
 
 
