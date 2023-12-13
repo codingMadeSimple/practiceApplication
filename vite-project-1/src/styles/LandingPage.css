@@ -1,0 +1,14 @@
+.top-padding{
+  padding-top: 100px;
+  width: 125%;
+}
+img{
+  border-radius: 1rem;
+}
+
+.project-image-description{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width:88%;
+}
