@@ -7,16 +7,16 @@ function NavBar(props) {
         <a href="/" className="site-title">The Colin Portfolio</a>
         <ul>
           <li>
-            <a href="Projects">Projects</a>
+            <a href="/projects">Projects</a>
           </li>
           <li>
-            <a href="About">About</a>
+            <a href="/experience">About</a>
           </li>
           <li>
-            <a href="About">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="Contact">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </div>
