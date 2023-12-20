@@ -6,7 +6,7 @@ import "./styles/NavBar.scss";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import LandingPage from './Components/LandingPage';
-import Portfolio from './Components/Portfolio';
+import Portfolio from './Components/PortfolioItem';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Experience from './Components/Experience';
