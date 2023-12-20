@@ -17,8 +17,6 @@ function LandingPage(props) {
           </a>
         </div>
         <div>Why the gap on github? Because I got Married!</div>
-
-
     </div>
 
   );

@@ -1,11 +1,13 @@
 import React from "react";
 
-function Projects(props) {
+function Portfolio(props) {
   return (
-  <div>
-    
-  </div>
+    <div>
 
-)}
 
-export default Projects
+    </div>
+
+  );
+}
+
+export default Portfolio;
