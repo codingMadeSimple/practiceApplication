@@ -2,7 +2,7 @@ import React from "react";
 
 function Experience(props) {
   return (
-  <div>
+  <div className="page-margin">
 
   </div>
 
