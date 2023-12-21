@@ -30,3 +30,13 @@
 .nav a:hover {
   color: #D92139; 
 }
+
+.big-pic{
+  display: flex;
+  min-width: 90%;
+  max-width: 90%;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  // padding: 50px;
+}
