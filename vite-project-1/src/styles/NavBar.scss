@@ -7,9 +7,8 @@
   top: 0;
   width: 100%;
   z-index: 100; 
+  padding: 1rem;
 }
-
-
 
 .nav ul {
   list-style: none;
@@ -28,10 +27,12 @@
 
 .big-pic{
   display: flex;
-  min-width: 90%;
-  max-width: 90%;
-  flex-direction: row;
+  min-width: 95%;
+  max-width: 95%;
   align-items: flex-end;
   justify-content: space-between;
-  // padding: 50px;
+}
+
+.nav-color {
+  background: rgba(49, 39, 39, 0.801)
 }
