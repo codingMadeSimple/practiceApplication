@@ -6,8 +6,8 @@ function LandingPage(props) {
   return (
     <div className="page-margin">
       <div className="profile-description ">
-        <img src="docs/Headshot1.jpg" className="headshot-sizing"></img>
-        <introductiontext className="horizonal-padding">I am a LightHouseLabs Web Development Graduate and a Full Stack Web Developer who leans slightly towards frontend. From Climbing to Coding and everything in-between. I would love to meet and collaborate with others in the industry to grow my knowledge and abilities.</introductiontext>
+        <img src="docs/Headshot1.jpg" className="headshot-sizing horizonal-padding"></img>
+        <div className="horizonal-padding">I am a LightHouseLabs Web Development Graduate and a Full Stack Web Developer who leans slightly towards frontend. From Climbing to Coding and everything in-between. I would love to meet and collaborate with others in the industry to grow my knowledge and abilities.</div>
       </div>
 
       <div className="project-image-description">
@@ -18,9 +18,11 @@ function LandingPage(props) {
           <img className="margin-top" src="https://raw.githubusercontent.com/NeonWaffles222/Charcoal-Cabernet/master/docs/Top%20of%20Homepage.png" alt="Charcoal and Cabernet Screenshot Placeholder" ></img>
         </a>
       </div>
-      <div>Why the gap on github? Because I got Married!</div>
+      <div className="horizonal-padding">
+        <img src="docs/Wedding Photo.jpg" className="wedding-photo"></img>
+        <div>Why the gap on github? Because I got Married!</div>
+      </div>
     </div>
-
   );
 }
 
