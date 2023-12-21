@@ -3,11 +3,9 @@ import "../styles/Portfolio.scss";
 import PortfolioList from "./PortfolioList";
 
 function Portfolio(props) {
-  return (
-    <div className="page-margin">
-      <PortfolioList />
-    </div>
 
+  return (
+  <PortfolioList projectObject={props.projectObject}/>
   );
 }
 
