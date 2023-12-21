@@ -19,12 +19,12 @@ function LandingPage(props) {
         </a>
       </div>
       <div className="horizonal-padding">
-        <div>
-          <img src="docs/Wedding Photo.jpg" className="wedding-photo"></img>
-        </div>
-        <div>
+
+        <img src="docs/Wedding Photo.jpg" className="wedding-photo"></img>
+        <div className="padding">
           Why the gap on github? Because I got Married!
         </div>
+
       </div>
     </div>
   );
