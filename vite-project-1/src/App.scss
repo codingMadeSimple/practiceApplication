@@ -1,7 +1,9 @@
 body{
   background-image: url("../../docs/scenic-sunrise-high-mountains-alpes-generative-ai\ \(1\).jpg");
   position: relative;
-  background-size: cover;
+  background-size:cover;
+  max-width: 100%;
+  height: auto;
 }
 
 .page-margin{
