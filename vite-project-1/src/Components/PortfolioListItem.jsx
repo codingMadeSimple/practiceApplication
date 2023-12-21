@@ -22,17 +22,17 @@ function PortfolioListItem(props) {
             <>
               <h2 className="text-color">Api's and Libraries</h2> - {props.projectObject.apis}
             </>
-            <div className="side-by-side">
-              <div className="collaborator-sizing">
-                <h2 className="text-color">Collaborators</h2>{props.projectObject.partners.Steven.name}
-                <a href={props.projectObject.partners.Steven.linkedIn}><div className="link-color">Linked In</div></a>
-                <a href={props.projectObject.partners.Steven.github}><div className="link-color">Github</div></a>
-              </div>
-              <div className="collaborator-sizing">
-                {props.projectObject.partners.Noah.name}
-                <a href={props.projectObject.partners.Noah.linkedIn}><div className="link-color">Linked In</div></a>
-                <a href={props.projectObject.partners.Noah.github}><div className="link-color">Github</div></a>
-              </div>
+            <div >
+                <div className="collaborator-sizing">
+                  <h2 className="text-color">Collaborators</h2>{props.projectObject.partners.Steven.name}
+                  <a href={props.projectObject.partners.Steven.linkedIn}><div className="link-color">Linked In</div></a>
+                  <a href={props.projectObject.partners.Steven.github}><div className="link-color">Github</div></a>
+                </div>
+                <div className="collaborator-sizing">
+                  {props.projectObject.partners.Noah.name}
+                  <a href={props.projectObject.partners.Noah.linkedIn}><div className="link-color">Linked In</div></a>
+                  <a href={props.projectObject.partners.Noah.github}><div className="link-color">Github</div></a>
+                </div>
             </div>
           </div>
         </div>
