@@ -4,10 +4,10 @@ import '../styles/LandingPage.scss';
 
 function LandingPage(props) {
   return (
-    <div className="page-margin padding-top">
-      <div className="profile-description">
-        <introductionimage>IMAGE PLACEHOLDER</introductionimage>
-        <introductiontext>I am a LightHouseLabs Web Development Graduate and a Full Stack Web Developer who leans slightly towards frontend. From Climbing to Coding and everything in-between. I would love to meet and collaborate with others in the industry to grow my knowledge and abilities.</introductiontext>
+    <div className="page-margin">
+      <div className="profile-description ">
+        <img src="docs/Headshot1.jpg" className="headshot-sizing"></img>
+        <introductiontext className="horizonal-padding">I am a LightHouseLabs Web Development Graduate and a Full Stack Web Developer who leans slightly towards frontend. From Climbing to Coding and everything in-between. I would love to meet and collaborate with others in the industry to grow my knowledge and abilities.</introductiontext>
       </div>
 
       <div className="project-image-description">
