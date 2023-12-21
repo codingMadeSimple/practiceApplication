@@ -9,18 +9,13 @@
   z-index: 100; 
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 2rem;
-}
+
 
 .nav ul {
   list-style: none;
   display: flex;
-  gap: 2rem;
-  font-size: 1.25rem
+  gap: 2.5rem;
+  font-size: 1.75rem
 }
 
 .nav a {

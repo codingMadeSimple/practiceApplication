@@ -19,3 +19,37 @@ img{
   align-items: center;
   margin-top: 10rem;
 }
+
+.text-color{
+  color:#AEC33A
+}
+
+.title-color{
+  color: #feb548;
+}
+
+.side-by-side{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.collab-format{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.collaborator-sizing{
+  font-size: larger;
+  text-align: center;
+}
+
+.link-color{
+  color: #feb548;
+}
+
+.link-color:hover {
+  color: #D92139; 
+}
+
