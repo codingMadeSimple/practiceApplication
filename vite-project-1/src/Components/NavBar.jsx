@@ -3,7 +3,7 @@ import React from "react";
 function NavBar(props) {
   return (
     <nav className="nav">
-      <div className="container">
+      <div className="container bigpic">
         <a href="/" className="site-title">The Colin Portfolio</a>
         <ul>
           <li>

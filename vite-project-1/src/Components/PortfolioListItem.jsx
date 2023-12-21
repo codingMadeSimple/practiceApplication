@@ -7,8 +7,8 @@ function PortfolioListItem(props) {
 
   return (
     <div className="page-margin">
-      <div className="portfolio-image-description">
-        <div className="top-margin">
+      <div className="portfolio-image-description margin-top">
+        <div >
           <h1 className="space-apart">{props.projectObject.projectName}</h1>
           <div>{props.projectObject.projectDescription}</div>
           <div>
@@ -28,7 +28,7 @@ function PortfolioListItem(props) {
           </div>
         </div>
         <a href="https://github.com/codingMadeSimple/Charcoal-Cabernet">
-          <img className="top-margin" src="https://raw.githubusercontent.com/NeonWaffles222/Charcoal-Cabernet/master/docs/Top%20of%20Homepage.png" alt="Charcoal and Cabernet Screenshot Placeholder" ></img>
+          <img className="margin-top" src="https://raw.githubusercontent.com/NeonWaffles222/Charcoal-Cabernet/master/docs/Top%20of%20Homepage.png" alt="Charcoal and Cabernet Screenshot Placeholder" ></img>
         </a>
       </div>
     </div>
