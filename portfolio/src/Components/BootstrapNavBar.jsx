@@ -15,6 +15,7 @@ function CollapsibleExample() {
             <Nav.Link href="/experience">Experience</Nav.Link>
           </Nav>
           <Nav>
+            <div></div>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
