@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.scss';
 import "./styles/NavBar.scss";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './Components/NavBar';
 import LandingPage from './Components/LandingPage';
 import Portfolio from './Components/Portfolio';
@@ -27,7 +27,7 @@ function App() {
       apis: "Stripe, Twilio, Material-UI, React Router",
       partners: {
         Noah: {
-          name:"Noah McMillan",
+          name: "Noah McMillan",
           github: "https://github.com/NeonWaffles222",
           linkedIn: "https://www.linkedin.com/in/noah-mcmillan-622756292/"
         }
@@ -43,16 +43,16 @@ function App() {
 
 
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/portfolio" element={<Portfolio projectObject={projectObject} />} className="page-margin" />
-        <Route path="/about" element={<About />} className="page-margin" />
-        <Route path="/contact" element={<Contact />} className="page-margin" />
-        <Route path="/experience" element={<Experience />} className="page-margin" />
-      </Routes>
-      <NavBar />
-    </Router>
+      <Router>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/portfolio" element={<Portfolio projectObject={projectObject} />} className="page-margin" />
+          <Route path="/about" element={<About />} className="page-margin" />
+          <Route path="/contact" element={<Contact />} className="page-margin" />
+          <Route path="/experience" element={<Experience />} className="page-margin" />
+        </Routes>
+        <NavBar />
+      </Router>
   );
 }
 
